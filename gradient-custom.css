@@ -1,0 +1,28 @@
+.tippy-box[data-theme~='gradient-custom'] {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+.tippy-box[data-theme~='gradient-custom'][data-placement^='top'] > .tippy-arrow:before {
+  /* border-top-color: red; */
+  display: none;
+}
+
+.tippy-box[data-theme~='gradient-custom'][data-placement^='bottom'] > .tippy-arrow:before {
+  /* border-bottom-color: red; */
+  display: none;
+}
+.tippy-box[data-theme~='gradient-custom'][data-placement^='left'] > .tippy-arrow:before {
+  /* border-left-color: red; */
+  display: none;
+}
+.tippy-box[data-theme~='gradient-custom'][data-placement^='right'] > .tippy-arrow:before {
+  /* border-right-color: red; */
+  display: none;
+}
+
+.tippy-box[data-theme~='gradient-custom'] > .tippy-backdrop {
+  background-color: red;
+}
+.tippy-box[data-theme~='gradient-custom'] > .tippy-svg-arrow {
+  fill: red;
+}
